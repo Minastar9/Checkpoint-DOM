@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Voici la partie principal du panier-->
+    <div class="cart">
+        <h1 class="title-shopping">Shopping Cart.</h1>
+        <div class="cart-items">
+            <!--Voici la partie où sont regroupés les prix et le compteur-->
+            <div class="cart-item" data-price="29.99">
+                <div class="item-image">
+                    <!--l'image de l'article-->
+                    <img src="Abaya-dress.jpg" alt="">
+                    <!--quantité-->
+                </div class="price-quantity">
+                <button class="delete-button">Supprimer</button>
+                <span class="item-name">Abaya-Minuit</span>
+                <span class="item-price">$29.99</span>
+                <div class="quantity-controls">
+                    <button class="decrement">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increment">+</button>
+                </div>
+                <button class="like-button">❤</button>
+            </div>
+            <!--Voici le prix total-->
+        </div>
+        <div class="total-price">
+            Total: $<span id="total">29.99</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

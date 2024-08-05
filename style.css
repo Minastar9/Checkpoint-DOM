@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: url(backgroung-abayaa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title-shopping {
+    font-family:'Times New Roman', Times, serif
+}
+
+.delete-button {
+    background-color: rgb(190, 112, 125);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.item-name {
+    flex: 1;
+}
+
+.item-price {
+    margin-right: 10px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    margin: 0 10px;
+}
+
+.increment, .decrement {
+    background-color: peachpuff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.like-button.liked {
+    color: goldenrod;
+}
+
+.total-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
